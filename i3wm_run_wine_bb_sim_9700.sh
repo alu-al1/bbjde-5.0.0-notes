@@ -6,6 +6,11 @@ source "$(dirname $0)/utils.sh" 2>/dev/null || echo "no local utils.sh found to 
 set -ex
 set_source_and_dir "$0"
 
-nohup \
-xchm "$DIR""../tools/Research In Motion/BlackBerry JDE 5.0.0/simulator/fledge-user.chm" &
+source "$DIR"/i3wm_utils.sh
 
+## use xprop on the window to get its attributes
+window_name="BlackBerry 9700 Simulator"
+
+{ sleep 2; i3wm_place_window "$window_name" 8 2; } \
+& \
+"$DIR"/run_wine_bb_sim_9700.sh
