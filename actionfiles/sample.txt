@@ -1,0 +1,4 @@
+AllowFocusChange
+Pause( 2 )
+TrackballPress(  )
+TrackballRelease(  )

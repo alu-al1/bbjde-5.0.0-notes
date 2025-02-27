@@ -1,0 +1,828 @@
+wine/drive_c/Program Files/Research In Motion/
+├── BlackBerry Desktop
+│   ├── Codecs
+│   ├── DesktopHelperModules
+│   ├── DeviceData
+│   ├── InstallerUtils
+│   ├── Modules
+│   ├── ru
+│   │   └── help_files
+│   └── Third_party
+│       └── Licenses
+│           ├── LibXML2
+│           ├── log4net
+│           └── zLib
+├── BlackBerry JDE 4.6.1
+│   ├── bin
+│   ├── docs
+│   │   └── api
+│   │       ├── catdesc
+│   │       ├── images
+│   │       ├── java
+│   │       │   ├── io
+│   │       │   ├── lang
+│   │       │   │   └── ref
+│   │       │   ├── rmi
+│   │       │   └── util
+│   │       ├── javacard
+│   │       │   ├── framework
+│   │       │   │   └── service
+│   │       │   └── security
+│   │       ├── javax
+│   │       │   ├── bluetooth
+│   │       │   ├── microedition
+│   │       │   │   ├── apdu
+│   │       │   │   ├── content
+│   │       │   │   ├── global
+│   │       │   │   ├── io
+│   │       │   │   │   └── file
+│   │       │   │   ├── jcrmi
+│   │       │   │   ├── lcdui
+│   │       │   │   │   ├── doc-files
+│   │       │   │   │   └── game
+│   │       │   │   │       └── doc-files
+│   │       │   │   ├── location
+│   │       │   │   ├── m2g
+│   │       │   │   ├── media
+│   │       │   │   │   ├── control
+│   │       │   │   │   ├── doc-files
+│   │       │   │   │   └── protocol
+│   │       │   │   ├── midlet
+│   │       │   │   │   └── doc-files
+│   │       │   │   ├── pim
+│   │       │   │   ├── pki
+│   │       │   │   ├── rms
+│   │       │   │   └── xml
+│   │       │   │       └── rpc
+│   │       │   ├── obex
+│   │       │   ├── wireless
+│   │       │   │   └── messaging
+│   │       │   └── xml
+│   │       │       ├── namespace
+│   │       │       ├── parsers
+│   │       │       └── rpc
+│   │       ├── net
+│   │       │   └── rim
+│   │       │       ├── blackberry
+│   │       │       │   └── api
+│   │       │       │       ├── blackberrymessenger
+│   │       │       │       ├── browser
+│   │       │       │       ├── homescreen
+│   │       │       │       ├── invoke
+│   │       │       │       ├── mail
+│   │       │       │       │   └── event
+│   │       │       │       ├── maps
+│   │       │       │       ├── menuitem
+│   │       │       │       ├── messagelist
+│   │       │       │       ├── mms
+│   │       │       │       ├── options
+│   │       │       │       ├── pdap
+│   │       │       │       ├── phone
+│   │       │       │       │   └── phonelogs
+│   │       │       │       ├── sms
+│   │       │       │       ├── spellcheck
+│   │       │       │       └── stringpattern
+│   │       │       ├── device
+│   │       │       │   ├── api
+│   │       │       │   │   ├── applicationcontrol
+│   │       │       │   │   ├── bluetooth
+│   │       │       │   │   ├── browser
+│   │       │       │   │   │   ├── field
+│   │       │       │   │   │   └── plugin
+│   │       │       │   │   ├── collection
+│   │       │       │   │   │   └── util
+│   │       │       │   │   ├── compress
+│   │       │       │   │   ├── content
+│   │       │       │   │   ├── crypto
+│   │       │       │   │   │   ├── asn1
+│   │       │       │   │   │   ├── certificate
+│   │       │       │   │   │   │   ├── status
+│   │       │       │   │   │   │   ├── wtls
+│   │       │       │   │   │   │   └── x509
+│   │       │       │   │   │   ├── cms
+│   │       │       │   │   │   ├── doc-files
+│   │       │       │   │   │   ├── encoder
+│   │       │       │   │   │   ├── keystore
+│   │       │       │   │   │   ├── oid
+│   │       │       │   │   │   ├── tls
+│   │       │       │   │   │   │   ├── ssl30
+│   │       │       │   │   │   │   ├── tls10
+│   │       │       │   │   │   │   └── wtls20
+│   │       │       │   │   │   └── transcoder
+│   │       │       │   │   ├── gps
+│   │       │       │   │   ├── i18n
+│   │       │       │   │   ├── io
+│   │       │       │   │   │   ├── file
+│   │       │       │   │   │   └── http
+│   │       │       │   │   ├── itpolicy
+│   │       │       │   │   ├── lbs
+│   │       │       │   │   ├── ldap
+│   │       │       │   │   ├── lowmemory
+│   │       │       │   │   ├── math
+│   │       │       │   │   ├── media
+│   │       │       │   │   │   └── control
+│   │       │       │   │   ├── memorycleaner
+│   │       │       │   │   ├── mime
+│   │       │       │   │   ├── notification
+│   │       │       │   │   ├── servicebook
+│   │       │       │   │   ├── smartcard
+│   │       │       │   │   │   └── doc-files
+│   │       │       │   │   ├── synchronization
+│   │       │       │   │   ├── system
+│   │       │       │   │   ├── ui
+│   │       │       │   │   │   ├── accessibility
+│   │       │       │   │   │   ├── autotext
+│   │       │       │   │   │   ├── component
+│   │       │       │   │   │   ├── container
+│   │       │       │   │   │   │   └── doc-files
+│   │       │       │   │   │   ├── decor
+│   │       │       │   │   │   ├── doc-files
+│   │       │       │   │   │   └── text
+│   │       │       │   │   ├── util
+│   │       │       │   │   └── xml
+│   │       │       │   │       ├── jaxp
+│   │       │       │   │       └── parsers
+│   │       │       │   └── cldc
+│   │       │       │       └── io
+│   │       │       │           └── ssl
+│   │       │       └── plazmic
+│   │       │           └── mediaengine
+│   │       │               └── io
+│   │       └── org
+│   │           ├── w3c
+│   │           │   └── dom
+│   │           │       ├── events
+│   │           │       ├── ls
+│   │           │       ├── ranges
+│   │           │       ├── stylesheets
+│   │           │       ├── svg
+│   │           │       ├── traversal
+│   │           │       └── views
+│   │           └── xml
+│   │               └── sax
+│   │                   └── helpers
+│   ├── ESS
+│   │   ├── bin
+│   │   ├── classpath
+│   │   ├── config
+│   │   └── help
+│   │       └── Images
+│   ├── lib
+│   ├── MDS
+│   │   ├── bin
+│   │   ├── classpath
+│   │   │   └── endorsed
+│   │   ├── conf
+│   │   ├── config
+│   │   ├── doc
+│   │   │   └── api
+│   │   │       └── api
+│   │   │           └── net
+│   │   │               └── rim
+│   │   │                   ├── protocol
+│   │   │                   │   └── http
+│   │   │                   │       └── content
+│   │   │                   │           └── transcoder
+│   │   │                   └── web
+│   │   │                       └── retrieval
+│   │   │                           └── protocol
+│   │   ├── jre
+│   │   │   └── lib
+│   │   │       ├── i386
+│   │   │       └── sparc
+│   │   │           ├── cpu
+│   │   │           │   ├── sparcv9+vis
+│   │   │           │   │   └── sparcv9
+│   │   │           │   └── sparcv9+vis2
+│   │   │           │       └── sparcv9
+│   │   │           └── sparcv9
+│   │   ├── samples
+│   │   │   └── transcoder
+│   │   │       └── net
+│   │   │           └── rim
+│   │   │               └── protocol
+│   │   │                   └── http
+│   │   │                       └── content
+│   │   │                           └── transcoder
+│   │   │                               └── uppercasehtml
+│   │   ├── webserver
+│   │   │   └── lib
+│   │   └── work
+│   ├── samples
+│   │   ├── com
+│   │   │   └── rim
+│   │   │       └── samples
+│   │   │           ├── device
+│   │   │           │   ├── accessibilitydemo
+│   │   │           │   │   ├── customcomponentsdemo
+│   │   │           │   │   │   └── img
+│   │   │           │   │   └── screenreaderdemo
+│   │   │           │   ├── activetextfieldsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── applicationpermissionsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── blackberry
+│   │   │           │   │   ├── browser
+│   │   │           │   │   │   └── img
+│   │   │           │   │   ├── options
+│   │   │           │   │   └── pim
+│   │   │           │   │       └── img
+│   │   │           │   ├── blackberrymapsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── bluetoothdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── bluetoothserialportdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── bufferedplaybackdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── camerademo
+│   │   │           │   │   └── img
+│   │   │           │   ├── chapidemo
+│   │   │           │   │   ├── Data
+│   │   │           │   │   └── img
+│   │   │           │   ├── cryptodemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── custombuttonsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── decordemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── embeddedmapdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── embeddedmediademo
+│   │   │           │   │   ├── img
+│   │   │           │   │   └── media
+│   │   │           │   ├── fileexplorerdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── gpsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── helloworlddemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── httpdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── httpfilterdemo
+│   │   │           │   │   ├── filter
+│   │   │           │   │   ├── img
+│   │   │           │   │   └── precanned
+│   │   │           │   ├── httppushdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── keywordfilterdemo
+│   │   │           │   │   ├── Data
+│   │   │           │   │   └── img
+│   │   │           │   ├── localizationdemo
+│   │   │           │   │   ├── img
+│   │   │           │   │   └── resource
+│   │   │           │   ├── mapfielddemo
+│   │   │           │   │   ├── img
+│   │   │           │   │   └── sitedata
+│   │   │           │   ├── mapsmenuitemdemo
+│   │   │           │   ├── mediaenginedemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── memoapidemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── memorydemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── messagelistdemo
+│   │   │           │   │   ├── img
+│   │   │           │   │   └── photo
+│   │   │           │   ├── midletdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── notificationsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── objectgroupingdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── otabackuprestoredemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── otasyncdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── persistentstoredemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── phone
+│   │   │           │   │   ├── phoneapidemo
+│   │   │           │   │   │   └── img
+│   │   │           │   │   └── phonelogsdemo
+│   │   │           │   │       └── img
+│   │   │           │   ├── rmsdemo
+│   │   │           │   ├── serviceroutingdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── smartcarddriverdemo
+│   │   │           │   ├── smsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── socketdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── spellcheckdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── svganimatordemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── svgcldcdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── svgmapdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── svgmidletdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── svgpickdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── svgtraitsdemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── tictactoedemo
+│   │   │           │   │   └── img
+│   │   │           │   ├── usbdemo
+│   │   │           │   │   └── img
+│   │   │           │   └── xmldemo
+│   │   │           │       ├── img
+│   │   │           │       └── xml
+│   │   │           └── server
+│   │   │               ├── bluetoothserialportdemo
+│   │   │               ├── browsermultipartpushdemo
+│   │   │               │   └── images
+│   │   │               ├── browserpushdemo
+│   │   │               │   ├── pappush
+│   │   │               │   ├── rimpush
+│   │   │               │   └── testpage
+│   │   │               ├── gpsdemo
+│   │   │               ├── httppushdemo
+│   │   │               ├── smsdemo
+│   │   │               └── socketdemo
+│   │   ├── desktop
+│   │   └── usbclient
+│   │       └── sha
+│   └── simulator
+│       └── Java
+└── BlackBerry JDE 5.0.0
+    ├── bin
+    ├── docs
+    │   └── api
+    │       ├── categories
+    │       │   └── icons
+    │       ├── images
+    │       ├── index-files
+    │       ├── java
+    │       │   ├── io
+    │       │   ├── lang
+    │       │   │   └── ref
+    │       │   ├── nio
+    │       │   ├── rmi
+    │       │   └── util
+    │       ├── javacard
+    │       │   ├── framework
+    │       │   │   └── service
+    │       │   └── security
+    │       ├── javax
+    │       │   ├── bluetooth
+    │       │   ├── microedition
+    │       │   │   ├── amms
+    │       │   │   │   └── control
+    │       │   │   │       ├── audio3d
+    │       │   │   │       ├── audioeffect
+    │       │   │   │       ├── camera
+    │       │   │   │       ├── imageeffect
+    │       │   │   │       └── tuner
+    │       │   │   ├── apdu
+    │       │   │   ├── content
+    │       │   │   ├── global
+    │       │   │   ├── io
+    │       │   │   │   └── file
+    │       │   │   ├── jcrmi
+    │       │   │   ├── khronos
+    │       │   │   │   ├── egl
+    │       │   │   │   └── opengles
+    │       │   │   ├── lcdui
+    │       │   │   │   ├── doc-files
+    │       │   │   │   └── game
+    │       │   │   │       └── doc-files
+    │       │   │   ├── location
+    │       │   │   ├── m2g
+    │       │   │   ├── media
+    │       │   │   │   ├── control
+    │       │   │   │   ├── doc-files
+    │       │   │   │   └── protocol
+    │       │   │   ├── midlet
+    │       │   │   │   └── doc-files
+    │       │   │   ├── pim
+    │       │   │   ├── pki
+    │       │   │   ├── rms
+    │       │   │   └── xml
+    │       │   │       └── rpc
+    │       │   ├── obex
+    │       │   ├── wireless
+    │       │   │   └── messaging
+    │       │   └── xml
+    │       │       ├── namespace
+    │       │       ├── parsers
+    │       │       └── rpc
+    │       ├── net
+    │       │   └── rim
+    │       │       ├── blackberry
+    │       │       │   └── api
+    │       │       │       ├── blackberrymessenger
+    │       │       │       ├── browser
+    │       │       │       ├── homescreen
+    │       │       │       ├── invoke
+    │       │       │       ├── mail
+    │       │       │       │   └── event
+    │       │       │       ├── maps
+    │       │       │       ├── menuitem
+    │       │       │       ├── messagelist
+    │       │       │       ├── mms
+    │       │       │       ├── options
+    │       │       │       ├── pdap
+    │       │       │       │   └── contactlinking
+    │       │       │       ├── phone
+    │       │       │       │   ├── phonegui
+    │       │       │       │   └── phonelogs
+    │       │       │       ├── pim
+    │       │       │       ├── push
+    │       │       │       ├── sms
+    │       │       │       ├── spellcheck
+    │       │       │       └── stringpattern
+    │       │       ├── device
+    │       │       │   ├── api
+    │       │       │   │   ├── applicationcontrol
+    │       │       │   │   ├── biometrics
+    │       │       │   │   ├── bluetooth
+    │       │       │   │   ├── browser
+    │       │       │   │   │   ├── field
+    │       │       │   │   │   ├── field2
+    │       │       │   │   │   │   └── debug
+    │       │       │   │   │   └── plugin
+    │       │       │   │   ├── collection
+    │       │       │   │   │   └── util
+    │       │       │   │   ├── compress
+    │       │       │   │   ├── content
+    │       │       │   │   ├── crypto
+    │       │       │   │   │   ├── asn1
+    │       │       │   │   │   ├── certificate
+    │       │       │   │   │   │   ├── status
+    │       │       │   │   │   │   ├── wtls
+    │       │       │   │   │   │   └── x509
+    │       │       │   │   │   ├── cms
+    │       │       │   │   │   ├── doc-files
+    │       │       │   │   │   ├── encoder
+    │       │       │   │   │   ├── keystore
+    │       │       │   │   │   ├── oid
+    │       │       │   │   │   ├── tls
+    │       │       │   │   │   │   ├── ssl30
+    │       │       │   │   │   │   ├── tls10
+    │       │       │   │   │   │   └── wtls20
+    │       │       │   │   │   └── transcoder
+    │       │       │   │   ├── database
+    │       │       │   │   ├── drm
+    │       │       │   │   ├── gps
+    │       │       │   │   ├── i18n
+    │       │       │   │   ├── io
+    │       │       │   │   │   ├── file
+    │       │       │   │   │   ├── http
+    │       │       │   │   │   └── transport
+    │       │       │   │   │       └── options
+    │       │       │   │   ├── itpolicy
+    │       │       │   │   ├── lbs
+    │       │       │   │   │   └── picker
+    │       │       │   │   ├── lcdui
+    │       │       │   │   │   ├── control
+    │       │       │   │   │   └── game
+    │       │       │   │   ├── ldap
+    │       │       │   │   ├── lowmemory
+    │       │       │   │   ├── math
+    │       │       │   │   ├── media
+    │       │       │   │   │   ├── control
+    │       │       │   │   │   └── protocol
+    │       │       │   │   ├── memorycleaner
+    │       │       │   │   ├── mime
+    │       │       │   │   ├── notification
+    │       │       │   │   ├── opengles
+    │       │       │   │   ├── script
+    │       │       │   │   ├── servicebook
+    │       │       │   │   ├── smartcard
+    │       │       │   │   │   └── doc-files
+    │       │       │   │   ├── synchronization
+    │       │       │   │   ├── system
+    │       │       │   │   │   └── doc-files
+    │       │       │   │   ├── ui
+    │       │       │   │   │   ├── accessibility
+    │       │       │   │   │   ├── autotext
+    │       │       │   │   │   ├── component
+    │       │       │   │   │   ├── container
+    │       │       │   │   │   │   └── doc-files
+    │       │       │   │   │   ├── decor
+    │       │       │   │   │   ├── doc-files
+    │       │       │   │   │   ├── extension
+    │       │       │   │   │   │   ├── component
+    │       │       │   │   │   │   └── container
+    │       │       │   │   │   ├── image
+    │       │       │   │   │   ├── picker
+    │       │       │   │   │   └── text
+    │       │       │   │   ├── userauthenticator
+    │       │       │   │   ├── util
+    │       │       │   │   ├── web
+    │       │       │   │   │   └── jse
+    │       │       │   │   ├── wlan
+    │       │       │   │   │   └── hotspot
+    │       │       │   │   └── xml
+    │       │       │   │       ├── jaxp
+    │       │       │   │       └── parsers
+    │       │       │   └── cldc
+    │       │       │       ├── io
+    │       │       │       │   ├── http
+    │       │       │       │   └── ssl
+    │       │       │       └── util
+    │       │       ├── plazmic
+    │       │       │   └── mediaengine
+    │       │       │       └── io
+    │       │       └── vm
+    │       ├── org
+    │       │   ├── w3c
+    │       │   │   └── dom
+    │       │   │       ├── events
+    │       │   │       ├── html2
+    │       │   │       ├── ls
+    │       │   │       ├── ranges
+    │       │   │       ├── stylesheets
+    │       │   │       ├── svg
+    │       │   │       ├── traversal
+    │       │   │       └── views
+    │       │   └── xml
+    │       │       └── sax
+    │       │           └── helpers
+    │       └── resources
+    ├── ESS
+    │   ├── bin
+    │   ├── classpath
+    │   ├── config
+    │   └── help
+    │       └── Images
+    ├── lib
+    ├── MDS
+    │   ├── bin
+    │   ├── classpath
+    │   │   └── endorsed
+    │   ├── conf
+    │   ├── config
+    │   ├── doc
+    │   │   └── api
+    │   │       └── api
+    │   │           └── net
+    │   │               └── rim
+    │   │                   ├── protocol
+    │   │                   │   └── http
+    │   │                   │       └── content
+    │   │                   │           └── transcoder
+    │   │                   └── web
+    │   │                       └── retrieval
+    │   │                           └── protocol
+    │   ├── jre
+    │   │   └── lib
+    │   │       ├── i386
+    │   │       └── sparc
+    │   │           ├── cpu
+    │   │           │   ├── sparcv9+vis
+    │   │           │   │   └── sparcv9
+    │   │           │   └── sparcv9+vis2
+    │   │           │       └── sparcv9
+    │   │           └── sparcv9
+    │   ├── samples
+    │   │   └── transcoder
+    │   │       └── net
+    │   │           └── rim
+    │   │               └── protocol
+    │   │                   └── http
+    │   │                       └── content
+    │   │                           └── transcoder
+    │   │                               └── uppercasehtml
+    │   ├── webserver
+    │   │   └── lib
+    │   └── work
+    ├── samples
+    │   ├── com
+    │   │   └── rim
+    │   │       └── samples
+    │   │           ├── device
+    │   │           │   ├── accelerometerdemo
+    │   │           │   │   └── img
+    │   │           │   ├── accessibilitydemo
+    │   │           │   │   ├── customcomponentsdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   └── screenreaderdemo
+    │   │           │   ├── activetextfieldsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── applicationpermissionsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── attachmentdemo
+    │   │           │   │   ├── attachments
+    │   │           │   │   └── img
+    │   │           │   ├── blackberry
+    │   │           │   │   ├── browser
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── options
+    │   │           │   │   └── pim
+    │   │           │   │       └── img
+    │   │           │   ├── blackberrymaildemo
+    │   │           │   │   └── img
+    │   │           │   ├── blackberrymapsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── bluetoothdemo
+    │   │           │   │   └── img
+    │   │           │   ├── bluetoothserialportdemo
+    │   │           │   │   └── img
+    │   │           │   ├── browser
+    │   │           │   │   ├── browsercontentmanagerdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── browserfielddemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── browserplugin
+    │   │           │   │   └── commonlib
+    │   │           │   ├── browserfield2demo
+    │   │           │   │   ├── img
+    │   │           │   │   └── js
+    │   │           │   ├── bufferedplaybackdemo
+    │   │           │   │   └── img
+    │   │           │   ├── camerademo
+    │   │           │   │   └── img
+    │   │           │   ├── chapidemo
+    │   │           │   │   ├── Data
+    │   │           │   │   └── img
+    │   │           │   ├── contactlinkingdemo
+    │   │           │   │   └── img
+    │   │           │   ├── cryptodemo
+    │   │           │   │   └── img
+    │   │           │   ├── custombuttonsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── decordemo
+    │   │           │   │   └── img
+    │   │           │   ├── embeddedmapdemo
+    │   │           │   │   └── img
+    │   │           │   ├── embeddedmediademo
+    │   │           │   │   ├── img
+    │   │           │   │   └── media
+    │   │           │   ├── fileexplorerdemo
+    │   │           │   │   └── img
+    │   │           │   ├── gpsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── helloworlddemo
+    │   │           │   │   └── img
+    │   │           │   ├── httpdemo
+    │   │           │   │   └── img
+    │   │           │   ├── httpfilterdemo
+    │   │           │   │   ├── filter
+    │   │           │   │   ├── img
+    │   │           │   │   └── precanned
+    │   │           │   ├── httppushdemo
+    │   │           │   │   └── img
+    │   │           │   ├── keywordfilterdemo
+    │   │           │   │   ├── Data
+    │   │           │   │   └── img
+    │   │           │   ├── localizationdemo
+    │   │           │   │   ├── img
+    │   │           │   │   └── resource
+    │   │           │   ├── mapfielddemo
+    │   │           │   │   ├── img
+    │   │           │   │   └── sitedata
+    │   │           │   ├── mapsmenuitemdemo
+    │   │           │   ├── mediaenginedemo
+    │   │           │   │   └── img
+    │   │           │   ├── mediakeysdemo
+    │   │           │   │   ├── mediakeysdemomidlet
+    │   │           │   │   │   └── img
+    │   │           │   │   └── mediaplayerdemo
+    │   │           │   │       ├── mediaplayerbackground
+    │   │           │   │       │   └── img
+    │   │           │   │       ├── mediaplayerforeground
+    │   │           │   │       │   └── img
+    │   │           │   │       └── mediaplayerlib
+    │   │           │   │           ├── img
+    │   │           │   │           └── sounds
+    │   │           │   ├── memoapidemo
+    │   │           │   │   └── img
+    │   │           │   ├── memorydemo
+    │   │           │   │   └── img
+    │   │           │   ├── messagelistdemo
+    │   │           │   │   ├── img
+    │   │           │   │   └── photo
+    │   │           │   ├── midletdemo
+    │   │           │   │   └── img
+    │   │           │   ├── mmsdemo
+    │   │           │   │   ├── img
+    │   │           │   │   └── media
+    │   │           │   │       ├── audio
+    │   │           │   │       └── picture
+    │   │           │   ├── networkapidemo
+    │   │           │   │   └── img
+    │   │           │   ├── notificationsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── objectgroupingdemo
+    │   │           │   │   └── img
+    │   │           │   ├── opengldemo
+    │   │           │   │   └── img
+    │   │           │   ├── optionsproviderdemo
+    │   │           │   ├── otabackuprestoredemo
+    │   │           │   │   └── img
+    │   │           │   ├── otasyncdemo
+    │   │           │   │   └── img
+    │   │           │   ├── persistentstoredemo
+    │   │           │   │   └── img
+    │   │           │   ├── phone
+    │   │           │   │   ├── phoneapidemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── phonelogsdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── phonemultilinedemo
+    │   │           │   │   │   └── img
+    │   │           │   │   └── phonescreendemo
+    │   │           │   │       └── img
+    │   │           │   ├── pimdemo
+    │   │           │   │   └── img
+    │   │           │   ├── preprocessordemo
+    │   │           │   │   └── img
+    │   │           │   ├── rmsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── sendmediademo
+    │   │           │   ├── serviceroutingdemo
+    │   │           │   │   └── img
+    │   │           │   ├── smartcarddriverdemo
+    │   │           │   ├── smsdemo
+    │   │           │   │   └── img
+    │   │           │   ├── socketdemo
+    │   │           │   │   └── img
+    │   │           │   ├── spellcheckdemo
+    │   │           │   │   └── img
+    │   │           │   ├── sqlitedemo
+    │   │           │   │   └── img
+    │   │           │   ├── svg
+    │   │           │   │   ├── svganimatordemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── svgcldcdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── svgformsdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── svgmapdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── svgmidletdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── svgpickdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── svgscriptingdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   └── svgtraitsdemo
+    │   │           │   │       └── img
+    │   │           │   ├── syncdemo
+    │   │           │   │   └── img
+    │   │           │   ├── tictactoedemo
+    │   │           │   │   └── img
+    │   │           │   ├── tiltdemo
+    │   │           │   │   └── img
+    │   │           │   ├── touchdemo
+    │   │           │   │   └── img
+    │   │           │   ├── toucheventinjectordemo
+    │   │           │   │   └── img
+    │   │           │   ├── udpdemo
+    │   │           │   │   └── img
+    │   │           │   ├── ui
+    │   │           │   │   ├── autocompletefielddemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── bitmapscalingdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── eyelidfielddemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── filepickerdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── locationpickerdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── menudemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── picturescrollfielddemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── screentransitionsdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── spinnerdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   ├── wireframelayoutdemo
+    │   │           │   │   │   └── img
+    │   │           │   │   └── zoomscreendemo
+    │   │           │   │       └── img
+    │   │           │   ├── usbdemo
+    │   │           │   │   └── img
+    │   │           │   ├── videorecordingdemo
+    │   │           │   │   └── img
+    │   │           │   └── xmldemo
+    │   │           │       ├── img
+    │   │           │       └── xml
+    │   │           └── server
+    │   │               ├── bluetoothserialportdemo
+    │   │               ├── browsermultipartpushdemo
+    │   │               │   └── images
+    │   │               ├── browserpushdemo
+    │   │               │   ├── pappush
+    │   │               │   ├── rimpush
+    │   │               │   └── testpage
+    │   │               ├── gpsdemo
+    │   │               ├── httppushdemo
+    │   │               ├── smsdemo
+    │   │               ├── socketdemo
+    │   │               └── udpdemo
+    │   ├── desktop
+    │   └── usbclient
+    │       └── USBClient
+    │           └── sha
+    └── simulator
+        ├── Debug
+        └── Java
+
+825 directories

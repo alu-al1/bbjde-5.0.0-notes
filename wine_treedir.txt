@@ -1,0 +1,58 @@
+wine
+├── dosdevices
+│   ├── c: -> ../drive_c
+│   └── z: -> /
+└── drive_c
+    ├── actionfiles -> ../../actionfiles
+    ├── dev
+    ├── eventfiles
+    ├── ProgramData -> /home/user0/.wine/drive_c/ProgramData
+    ├── Program Files
+    │   ├── Common Files -> /home/user0/.wine/drive_c/Program Files/Common Files
+    │   ├── Internet Explorer -> /home/user0/.wine/drive_c/Program Files/Internet Explorer
+    │   ├── openjdk
+    │   │   └── openjdk_1.7.0_u80
+    │   │       ├── bin
+    │   │       ├── include
+    │   │       │   └── win32
+    │   │       ├── jre
+    │   │       │   ├── bin
+    │   │       │   │   ├── client
+    │   │       │   │   └── server
+    │   │       │   └── lib
+    │   │       │       ├── applet
+    │   │       │       ├── cmm
+    │   │       │       ├── ext
+    │   │       │       ├── fonts
+    │   │       │       ├── i386
+    │   │       │       ├── images
+    │   │       │       │   └── cursors
+    │   │       │       ├── management
+    │   │       │       ├── security
+    │   │       │       └── zi
+    │   │       │           ├── Africa
+    │   │       │           ├── America
+    │   │       │           │   ├── Argentina
+    │   │       │           │   ├── Indiana
+    │   │       │           │   ├── Kentucky
+    │   │       │           │   └── North_Dakota
+    │   │       │           ├── Antarctica
+    │   │       │           ├── Asia
+    │   │       │           ├── Atlantic
+    │   │       │           ├── Australia
+    │   │       │           ├── Etc
+    │   │       │           ├── Europe
+    │   │       │           ├── Indian
+    │   │       │           ├── Pacific
+    │   │       │           └── SystemV
+    │   │       ├── lib
+    │   │       └── uninstall
+    │   │           └── tools
+    │   ├── Research In Motion -> ../../../../tools/Research In Motion
+    │   ├── Windows Media Player -> /home/user0/.wine/drive_c/Program Files/Windows Media Player
+    │   └── Windows NT -> /home/user0/.wine/drive_c/Program Files/Windows NT
+    ├── Program Files (x86) -> /home/user0/.wine/drive_c/Program Files (x86)
+    ├── users -> /home/user0/.wine/drive_c/users
+    └── windows -> /home/user0/.wine/drive_c/windows
+
+55 directories
