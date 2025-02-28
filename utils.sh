@@ -24,6 +24,8 @@ function set_source_and_dir() # arg1: inital $0
 
 function die_with_message() # arg1: "[msg=""] [code=1] [prefix="[ERROR]"]"
 {
+    # TODO msg+=\n if len(msg) != 0 and msg[-1] != '\n'
+    
     set_source_and_dir "$0"
     echo "[ERROR]: $DIR $SOURCE: die_with_message() is not implemented yet"
     exit 1
