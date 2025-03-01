@@ -46,8 +46,8 @@ window_name="Links"
 function i3wm_place_window
 { 
 local window_name=$1; [ -z "window_name" ] && echo "i3wm_place_window: no window_name passed" && exit 1
-local twelve_fraction_x=$2; if [ -z "twelve_fraction_x" ]; then twelve_fraction_x=1; fi 
-local twelve_fraction_y=$3; if [ -z "twelve_fraction_y" ]; then twelve_fraction_y=1; fi
+local twelve_fraction_x=$2; if [ -z "twelve_fraction_x" ]; then twelve_fraction_x=0; fi
+local twelve_fraction_y=$3; if [ -z "twelve_fraction_y" ]; then twelve_fraction_y=0; fi
 
 
 focused_display_resolution="$(get_mon_wh_leftmost $(i3wm_get_focused_output))"
@@ -75,7 +75,7 @@ i3_cmd=$(echo "[title=\"$window_name\"] \
         for ((i=1; i<=10; i++)); do
                 sleep 0.5
                 if [ $(i3-msg $i3_cmd | jq 'length') -ne 0 ]; then
-                        break; 
+                        break;
                 fi
         done;
         # TODO wait for pid if any or exit
