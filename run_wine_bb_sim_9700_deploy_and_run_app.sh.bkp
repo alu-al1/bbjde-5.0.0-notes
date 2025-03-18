@@ -31,8 +31,6 @@ mkdir -p "$host_cod_src_dir"
 
 simhome="$WINEPREFIX"/drive_c/Program\ Files/Research\ In\ Motion/BlackBerry\ JDE\ 5.0.0/simulator
 cd "$simhome" || check_is_set_or_die_critical "" "`\$simhome` is empty or couldn't be found"
-## TODO check wine actually sees it
-wine_simhome="C:\Program Files\Research In Motion\BlackBerry JDE 5.0.0\simulator"
 
 # TODO prepare interactive variant
 # wine cmd /c "fledgecontroller.exe /session=$sessionname < C:\actionfiles\sample.txt"
@@ -43,28 +41,20 @@ wine cmd /c "fledgecontroller.exe /get-sessions"
 ## TODO as an arg
 # wine cmd /c "fledgecontroller.exe /session=$sessionname /execute=AllowFocusChange"
 
-# TODO check is regular file and is .cod
-wine_cod_path_simhome_rel=$( basename "$app" )
+wine_cod_path_simhome_rel="$app"
 
 rm -rf                                      "$simhome/$wine_cod_path_simhome_rel"
 cp "$host_cod_src_dir/$app"                 "$simhome/$wine_cod_path_simhome_rel"
 
-cat "$simhome/$wine_cod_path_simhome_rel"	| md5sum
-cat "$host_cod_src_dir/$app"			| md5sum
-
 #debug
 find "$simhome" -maxdepth 1 -name "*.cod" -type f
 
-cod_="\"$wine_simhome\\$wine_cod_path_simhome_rel\""
-cod_="\"$wine_cod_path_simhome_rel\""
-echo "will load cod: $cod_"
-echo "as LoadCod\($cod_)"
-
-
-wine cmd /c "fledgecontroller.exe /session=$sessionname /execute=LoadCod($cod_)"
 wine cmd /c "fledgecontroller.exe /session=$sessionname" << EOF
 
-Pause( 1)
+Pause( 1 )
+LoadCod("\"$wine_cod_path_simhome_rel\"")
+
+Pause( 2 )
 KeyPress( END, 1 )
 KeyRelease( END, 0 )
 KeyPress( END, 1 )
@@ -72,7 +62,7 @@ KeyRelease( END, 0 )
 Pause( 1 )
 KeyPress( FRONT_CONVENIENCE, 1 )
 KeyRelease( FRONT_CONVENIENCE, 0 )
-Pause( 1 )
+Pause( 2 )
 ThumbwheelRoll( -1 )
 ThumbwheelRoll( -1 )
 ThumbwheelRoll( -1 )
@@ -137,7 +127,9 @@ ThumbwheelRoll( 1 )
 Pause( 1 )
 ThumbwheelRoll( 1 )
 ThumbwheelRoll( 1 )
+Pause( 1 )
 ThumbwheelRoll( 1 )
+Pause( 1 )
 TrackballPress(  )
 TrackballRelease(  )
 Pause( 1 )

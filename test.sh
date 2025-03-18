@@ -8,6 +8,7 @@ set -ex
 set_source_and_dir "$0"
 
 export WINEPREFIX="$DIR"/wine
+export WINEDEBUG=-all
 ## find -L . -name ... # -L for following links
 ## winecfg
 
@@ -19,7 +20,7 @@ cd "$simhome" || exit 1
 exe="fledge.exe"
 ## based on Research In Motion/BlackBerry JDE 5.0.0/simulator/9700.bat
 
-args="/app=Jvm.dll /handheld=9700 /session=9700 /app-param=DisableRegistration /app-param=JvmAlxConfigFile:9700.xml /data-port=0x4d44 /data-port=0x4d4e /pin=0x2100000A /app-param=JvmDebugFile:C:\9700_debug.log" # /no-show-plastics"
+args='/app=Jvm.dll /app-param=Ignoreme:util_cod_hotreload.cod /handheld=9700 /session=9700 /app-param=DisableRegistration /app-param=JvmAlxConfigFile:9700.xml /data-port=0x4d44 /data-port=0x4d4e /pin=0x2100000A /app-param=JvmDebugFile:C:\9700_debug.log" # /no-show-plastics'
 
 if [ ! -f "$exe" ]; then
   echo "$SOURCE error: executable not found: $exe"
